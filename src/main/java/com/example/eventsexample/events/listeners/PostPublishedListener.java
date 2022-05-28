@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * Handler for a custom event - we define and publish every {@link PostPublishedEvent} in our code.
  */
-@Component
+//@Component
 public class PostPublishedListener implements ApplicationListener<PostPublishedEvent> {
     @Override
     public void onApplicationEvent(PostPublishedEvent event) {

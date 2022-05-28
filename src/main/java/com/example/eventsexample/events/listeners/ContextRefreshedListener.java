@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * Handler for a system event - the {@link ContextRefreshedEvent} is part of Spring, we do not define it.
  */
-@Component
+//@Component
 public class ContextRefreshedListener implements ApplicationListener<ContextRefreshedEvent> {
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
